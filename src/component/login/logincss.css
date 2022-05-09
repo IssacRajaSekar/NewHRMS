@@ -1,0 +1,131 @@
+/* background image property */
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    padding-top: 10px;
+    padding-left: 10px;
+    background-image: url("../UI/Assets/LOGIN_&_HOMEPAGE/white-simple-textured-design-background.jpg");
+    background-repeat:no-repeat;}
+    /* opacity: 0.5; */
+    /* width: */
+
+.inpPad{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 70px;
+}
+
+@media (max-width: 540px) {
+    body{
+        margin: 10px;
+    }
+    
+}
+
+.htext{
+    margin-left: 130px;
+   
+}
+
+.butPad{
+    padding: 45px;
+    height: 50px;
+    background-color: yellowgreen;
+    text-decoration:none;
+    color: black;
+}
+.butPad:hover{
+    background-color: green;
+    text-decoration:none;
+    color: black;
+}
+
+.sButPad{
+    background-color: yellowgreen;
+    text-decoration:none;
+    color: black;
+}
+.sButPad:hover{
+    background-color: green;
+    text-decoration:none;
+    color: black;
+}
+
+.br{
+    border-radius: 100px;
+}
+
+.loginflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.loginBoxBackground{
+    background-color:aliceblue;
+    height: 550px;
+    width: 500px;
+   
+}
+.br{
+    border-radius: 100px;
+}
+.bee{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.left{
+    text-align: start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.person{
+    padding-right: 200;
+}
+
+.ani1{
+    animation: fadeInLeft 1s ease-in-out
+}
+
+.ani2{
+    animation: fadeInRight 1s ease-in-out
+}
+
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .input{
+      border-radius: 100px;
+  }
+
+  .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root{
+      border-radius: 30px !important;
+  }
+  .textFieldAlign{
+      margin-left: 30px;
+      margin-right: 50px;
+      margin-bottom: 50px;
+  }

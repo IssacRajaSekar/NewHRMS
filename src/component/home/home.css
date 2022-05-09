@@ -1,0 +1,13 @@
+.c{
+    margin-top: 1000px;
+}
+.homeFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logoAdj{
+    margin-top: 200px;
+    margin-left: 100px;
+}
